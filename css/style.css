@@ -1,0 +1,244 @@
+:root {
+--purple-color: #a73ffd;
+--black-color: #16163f;
+--lilac-color: #b77bfd;
+--white-color: #efe7fb;
+--font-color: #24244b;
+--heading-color: #25254b;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+#Nav li{
+    display: inline-block;
+}
+
+#Nav a {
+    text-decoration: none;
+    color: var(--heading-color);
+    padding: 0px 15px;
+    font-size: 1.08rem;
+    font-weight: 400;
+}
+
+#Header a:hover{
+    color: #bc7afe;
+}
+
+.header-container{
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+}
+
+Header {
+    padding: 20px 20px;
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    background-color: white;
+    border-bottom: rgba(200, 200, 200, .3) 1px solid;
+}
+
+#Hero-Section{
+    height: 900px;
+    width: 100%;
+}
+
+#Hero-Section > div > div{ 
+    margin-left: 135px;
+}
+
+#Hero-Section > div {
+    background-image: url(../img/bg-hero.jpg);
+    background-position: top center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#Hero-Section h2 {
+    color: var(--black-color);
+    font-size: 90px;
+    line-height: 6.5rem;
+    padding-bottom: 25px;
+}
+
+#Hero-Section p {
+    color: var(--font-color);
+    font-size: 1.4rem;
+    line-height: 2.3rem;
+    padding-bottom: 55px;
+}
+
+#Hero-Section i {
+    position: fixed;
+    right: 20px;
+    bottom: 0px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+#Services {
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+#Services h3{
+    padding: 20px 0 80px 0;
+    font-size: 2.35rem;
+    line-height: 1.3;
+    letter-spacing: -1px;
+}
+
+#Services h4 {
+    font-size: 1.05rem;
+}
+
+#Services h5 {
+    padding: 15px 0px 8px 0px;
+    color: var(--black-color);
+    font-size: 1.05rem;
+    font-weight: 600;
+}
+
+#Services p {
+    line-height: 1.7rem;
+    color: var(--font-color);
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+#Services img {
+    padding-bottom: 30px;
+}
+
+#Numbers {
+    background-color: var(--black-color);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#Numbers h3 {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+#Numbers h2 {
+    font-weight: 600;
+}
+
+#Numbers li p {
+    font-weight: 300;
+    font-size: 1.05rem;
+}
+
+.numbers-container li {
+    display: inline-block;
+    padding: 50px 60px 40px 60px;
+}
+
+/*.numbers-container ul li { white-space: pre; }*/
+/*.numbers-container ul li:after { content: "  \2b24   "; }*/
+/*.numbers-container ul li:last-child:after { content: ""; }*/
+
+#About > div {
+    background-color:white;
+    height: 900px;
+}
+
+#About > div::after  {
+    content: '';
+    background: url(../img/about.jpg) no-repeat center center/cover;
+    background-attachment: fixed;
+    width: 100%;
+    max-width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+#About h3 {
+    padding: 25px 0 45px 0;
+    font-size: 2.35rem;
+    line-height: 1.3;
+    letter-spacing: -1px;
+}
+
+#About p {
+    line-height: 2rem;
+    color: var(--font-color);
+    font-size: 1.05rem;
+    font-weight: 400;
+}
+
+#Testimonials {
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;  
+    color: white;
+    background-color: var(--purple-color);
+}
+
+#Testimonials h4 {
+    color: white;
+    padding: 75px 0 65px 0;
+}
+
+#Testimonials h2 {
+    font-weight: 600;
+    font-size: 3rem;
+    padding-bottom: 80px;
+}
+
+#Testimonials p {
+    font-weight: 300;
+}
+
+#Testimonials > div > div :nth-child(2) {
+    font-weight: bold;
+}
+
+#Clients{
+    height: 225px;
+    background-color: var(--white-color);
+    }
+    
+#Clients h4 {
+    font-size: 1.05rem;
+    color: var(--font-color);
+    padding-top: 30px; 
+}
+
+#Contact{
+    height: 800px;
+    background-color: white;
+}
+
+#Contact h4 {
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+
+#Footer > div :last-child {
+    padding: 12px 0px;
+    justify-items: center;
+    text-align: center;
+    background-color: white;
+    color: var(--font-color);
+    font-size: .95rem;
+    font-weight: 400;
+}
+

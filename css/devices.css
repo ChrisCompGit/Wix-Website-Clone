@@ -1,0 +1,120 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+    .grid-x-4 {
+        grid-template-columns: 1fr;
+        row-gap: 32px;
+        justify-content: center;
+    }
+
+    #Header-Nav ul li {
+        display: block;
+        margin: 0px;
+        text-align: center;
+    }
+
+    #Hero-Section {
+        height: 75vh;
+    }
+
+    #Hero-Section h1 {
+        font-size: 3rem;
+    }
+
+    #Featured-Resort {
+        padding: 0px;
+        text-align: center;
+    }
+
+    .card-border {
+        justify-self: center;
+    }
+
+ }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .grid-x-4 {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 32px;
+        justify-content: center;
+    }
+
+    #Featured-Resort {
+        padding: 0px;
+        text-align: center;
+        margin: 0px 20px;
+    }
+
+    #Hero-Section h1 {
+        font-size: 3rem;
+    }
+
+    #Hero-Section {
+        height: 85vh;
+    }
+
+    #Header-Nav ul li {
+        display: inline-block;
+        padding: 20px 15px;
+        text-align: center;
+    }
+
+    header ul {
+        text-align: center;
+    }
+
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    .grid-x-4 {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 32px;
+        justify-content: center;
+    }
+
+    #Featured-Resort {
+        padding: 0px;
+        text-align: center;
+        margin: 0px 20px;
+    }
+
+    #Hero-Section h1 {
+        font-size: 3rem;
+    }
+
+    #Hero-Section {
+        height: 75vh;
+    }
+    
+    #Header-Nav ul li {
+        display: inline-block;
+        padding: 16px 20px;
+    }
+
+    header ul {
+        text-align: center;
+    }
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+    #Featured-Resort {
+        padding: 0px 20px;
+    }
+
+    #Featured-Resort h2 {
+        text-align: center;
+    }
+
+    header ul {
+        text-align: center;
+    }
+
+ }
+

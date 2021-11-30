@@ -1,0 +1,177 @@
+.purple{
+    color: var(--purple-color);
+}
+
+.black{
+    color: var(--black-color);
+}
+
+.lilac{
+    color: var(--lilac-color);
+}
+
+.white{
+    color: var(--white-color);
+}
+
+.font-color{
+    color: var(--font-color);
+}
+
+.heading-color{
+    color: var(--heading-color);
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.xlight {
+    font-weight: 200;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.semibold{
+    font-weight: 600;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.xbold{
+    font-weight: 800;
+}
+
+.xxbold{
+    font-weight: 900;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.no-underline{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 5rem;
+}
+
+h4{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--purple-color);
+    letter-spacing: 1.4px;
+}
+
+.logo{
+    font-size: 1.6rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.gridx2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridx3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gridx4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.gridx5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.txt-align-ctr{
+    text-align: center;
+}
+
+.justify-ctr{
+    justify-items: center;
+}
+
+.align-ctr{
+    align-items: center;
+}
+
+.btn{
+    background-color: var(--purple-color);
+    padding: 15px 30px;
+    border-radius: 30px;
+    color: var(--white-color);
+}
+
+.padding-top{
+    padding-top: 20px;
+}
+
+.chat{
+    padding: 15px;
+    background-color: var(--black-color);
+    border-radius: 50px;
+    z-index: 100;
+}
+
+.card {
+    width: 300px;
+    max-width: 0 auto;
+    margin-bottom: 150px;
+}
+
+.abt-container {
+    width: 698px;
+    padding-left: 250px;
+}
+
+.test-container {
+    width: 650px;
+    margin: 0 auto;
+    justify-self: center;
+}
+
+.contact-container {
+    padding-left: 250px;
+    padding-top: 100px;
+}
+
+.contact-container :nth-child(5) {
+    padding-bottom: 3rem;
+}
+
+.form-border
+{
+    border-bottom: 2px solid black;
+    line-height: 50px;
+}
+
+.form-txt {
+    font-weight: 300;
+    color: var(--font-color);
+}
+
+
+
