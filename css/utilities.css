@@ -66,6 +66,10 @@
     text-decoration: none;
 }
 
+a:focus-within {
+    color: #bc7afe !important;
+}
+
 h2{
     font-size: 5rem;
 }
@@ -75,6 +79,11 @@ h4{
     text-transform: uppercase;
     color: var(--purple-color);
     letter-spacing: 1.4px;
+}
+
+h5 {
+    font-size: 2rem;
+    color: var(--purple-color);
 }
 
 .logo{
@@ -94,6 +103,11 @@ h4{
 .gridx3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gridx3-form {
+    display: grid;
+    grid-template-columns: 1fr .2fr 1fr;
 }
 
 .gridx4{
@@ -129,6 +143,18 @@ h4{
     padding-top: 20px;
 }
 
+.padding-top-form {
+    padding-top: 155px;
+}
+
+.padding-bottom{
+    padding-bottom: 20px;
+}
+
+.margin-top {
+    margin-top: 35px;
+}
+
 .chat{
     padding: 15px;
     background-color: var(--black-color);
@@ -154,24 +180,55 @@ h4{
 }
 
 .contact-container {
-    padding-left: 250px;
+    justify-self: center;
     padding-top: 100px;
 }
 
-.contact-container :nth-child(5) {
-    padding-bottom: 3rem;
+.contact-container :nth-child(3) {
+    line-height: 32px;
+    padding-bottom: 2.5rem;
 }
 
-.form-border
-{
-    border-bottom: 2px solid black;
-    line-height: 50px;
+.form-container {
+    justify-self: center;
+    width: 500px;
+}
+
+.map-container {
+    width: 100% !important;
+    overflow: hidden;
+}
+
+.form-border {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    line-height: 35px;
+}
+
+.form-border:focus {
+    outline: none;
+    border-bottom: 2.5px solid var(--purple-color) !important;
 }
 
 .form-txt {
     font-weight: 300;
+    font-size: small;
     color: var(--font-color);
 }
 
+.input-margin {
+    margin-left: 100px;
+}
 
+input, label {
+    display:block;
+}
 
+.inline-block {
+    display: inline-block;
+}
+
+.no-outline {
+    outline: none !important;
+}

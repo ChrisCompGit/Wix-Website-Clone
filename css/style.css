@@ -223,16 +223,21 @@ Header {
 }
 
 #Contact{
-    height: 800px;
-    background-color: white;
+    height: 600px;
 }
 
 #Contact h4 {
     font-weight: 600;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
-#Footer > div :last-child {
+/*   *****FIX THIS*****   */
+#Footer > div > div:first-child {
+    background-image: url("../img/Contact-BG.jpg");
+    opacity: 1;
+}
+
+#Footer > div > div:last-child {
     padding: 12px 0px;
     justify-items: center;
     text-align: center;

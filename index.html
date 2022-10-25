@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,28 +9,27 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utilities.css">
     <link rel="stylesheet" href="css/devices.css">
-    <!--Font Awesome Script-->
-    <script src="https://kit.fontawesome.com/471a311761.js" crossorigin="anonymous"></script>
     <!--Google Font Script-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--Font Awesome Script-->
+    <script src="https://kit.fontawesome.com/471a311761.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header id="Header">
         <div class="header-container justify-ctr align-ctr">
-            <h1 class="logo black">
-                BizBud
-            </h1>
+            <a href="#" class="no-underline"><h1 class="logo black"> BizBud </h1></a>
             <div id="Nav">
                 <nav>
                     <ul>
-                        <li><a href="#" style="color: #bc7afe;">Home</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Testimonials</a></li>
-                        <li><a href="#">Clients</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Testimonials">Testimonials</a></li>
+                        <li><a href="#Clients">Clients</a></li>
+                        <li><a href="#Contact">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -128,6 +128,7 @@
             </div>
         </div>
     </section>
+
     <section id="Testimonials">
         <div class="txt-align-ctr">
             <h4 class="semibold">Testimonials</h4>
@@ -155,41 +156,61 @@
 
     <footer id="Footer">
         <div>
+
+            <div> <!--image--> </div>
+
             <div id="Contact" class="gridx2">
 
                 <div class="contact-container">
-                    <h4>Contact</h4>
-                    <h3 class="black semibold">Let's Work Together</h3>
-                    <p>500 Terry Francois St. San Francisco, CA 94158</p>
-                    <p>info@mysite.com</p>
-                    <p>Tel: 123-456-7890</p>
 
-                    <a href="www.linkedin.com" class="no-underline" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="www.facebook.com" class="no-underline" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
-                    <a href="www.twitter.com" class="no-underline" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                    <h4>Contact</h4>
+                    <h5 class="black semibold padding-bottom">Let's Work Together</h5>
+                    <p>500 Terry Francois St. San Francisco, CA 94158 <br>
+                    info@mysite.com <br>
+                    Tel: 123-456-7890</p>
+
+                    <div class="no-underline" style="font-size: 1.5rem;">
+                        <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin black"></i></a>
+                        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-square black"></i></a>
+                        <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter-square black"></i></a>
+                    </div>
+
                 </div>
 
-                <div>
-                    <form action="#" method="post">
-                        <label for="First-Name" class="form-txt">First Name</label>
-                        <input type="text" name="First-Name" id="First-Name" class="form-border">
+                <div class="form-container">
+                    <form action="" method="post" class="padding-top-form">
+                        <div>
+                            <div class="gridx3-form">
+                                <div>
+                                    <label for="First-Name" class="form-txt">First Name</label>
+                                    <input type="text" name="First-Name" id="First-Name" class="form-border"> 
+                                </div>
 
-                        <label for="Last-Name" class="form-txt">Last Name</label>
-                        <input type="text" name="Last-Name" id="Last-Name">
+                                <div></div>
+                                
+                                <div>
+                                    <label for="Last-Name" class="form-txt">Last Name</label>
+                                    <input type="text" name="Last-Name" id="Last-Name" class="form-border">
+                                </div>
+                            </div>
 
-                        <label for="Email" class="form-txt">Email *</label>
-                        <input type="text" id="Email" name="Email">
+                            <label for="Email" class="form-txt padding-top">Email *</label>
+                            <input type="text" id="Email" name="Email" class="form-border">
 
-                        <label for="Comment" class="form-txt">Leave us a Comment</label>
-                        <textarea name="Comments" id="Comments" cols="30" rows="10"></textarea>
-                        
-                        <button type="submit" class="btn" style="padding: 10px 20px; background-color: var(--purple-color); color:var(--font-color)">Submit</button>
+                            <label for="Comment" class="form-txt padding-top">Leave us a Comment</label>
+                            <textarea name="Comments" id="Comments" cols="30" rows="3" class="form-border"></textarea>
+
+                            <div>
+                                <button type="submit" style="background-color: var(--purple-color); padding: 15px 30px; border-radius: 30px; border: none; cursor: pointer; color: white" class="margin-top">Submit</button>
+                            </div>                        
+                            
+                        </div>    
                     </form>
                 </div>
             </div>
-
+            
             <!--Google Map API-->
-            <div class="mapouter">
+            <div class="mapouter map-container">
                 <div class="gmap_canvas"><iframe width="1920" height="375" id="gmap_canvas" src="https://maps.google.com/maps?q=9-17%20Park%20Street&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                     <a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a><br><style>.mapouter{position:relative;text-align:right;height:375px;width:1080px;}</style>
                     <a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:375px;width:1920px;}</style>
@@ -199,6 +220,7 @@
             <div>
                 <p>&copy; 2023 by BizBud. Proudly created with <span class="underline"> <a href="www.wix.com">Wix.com</a></span></p>
             </div>
+
         </div>
     </footer>
 </body>
